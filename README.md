@@ -18,9 +18,9 @@ Window 3 (temporary) - Execute One-Time Commands - create, list, delete topics
 ```
 Window 4 - Run Kafka Producer (will provide a > prompt for writing messages)
 ```
-.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic bearcat-messages
+.\bin\windows\kafka-console-producer.bat --broker-list localhost:9092 --topic kafka-test
 ```
 Window 5 - Run Kafka Consumer (to show messages from the beginning)
 ```
-.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic bearcat-messages --from-beginning
+.\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic kafka-test --from-beginning
 ```
