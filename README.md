@@ -12,7 +12,7 @@ Window 2 - Run Kafka Service (keep window open)
 Window 3 (temporary) - Execute One-Time Commands - create, list, delete topics 
 ```
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --create 
---topic bearcat-messages
+--topic kafka-test
 
 .\bin\windows\kafka-topics.bat --zookeeper localhost:2181 --list
 ```
